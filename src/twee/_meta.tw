@@ -1,0 +1,13 @@
+:: StoryData
+{
+	"ifid": "66B3B37F-7596-4BCB-BA81-88248C8D71D3",
+	"format": "SugarCube",
+	"format-version": "2.34.1"
+}
+
+:: StoryTitle
+SugarCube TypeScript template
+
+:: Start
+
+<<= setup.greeting>>

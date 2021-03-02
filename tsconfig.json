@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": false,
+		"noUnusedParameters": false,
+		"strict": true,
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"moduleResolution": "Node",
+		"module": "ES2015",
+		"target": "ES2015",
+		"outDir": "src/__compiled",
+		"rootDir": "src/scripts",
+		"lib": [
+			"ES2015",
+			"DOM"
+		],
+	},
+	"include": [
+		"src/scripts"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}
