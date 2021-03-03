@@ -3,12 +3,13 @@
 	"version": "1.0.0",
 	"description": "A SugarCube-2 project template for working with TypeScript.",
 	"scripts": {
-		"build": "npm run clean && webpack --mode production && npm run tweego-build",
-		"dev": "npm run clean && concurrently --kill-others \"webpack --watch --mode development\" \"npm run tweego-watch\" \"npm run serve\"",
+		"build": "npm run flush && webpack --mode production && npm run tweego-build",
+		"dev": "npm run flush && concurrently --kill-others \"webpack --watch --mode development\" \"npm run tweego-watch\" \"npm run serve\"",
 		"tweego-build": "tweego --output=dist/index.html --head=src/head.html --module=src/modules src/__compiled src/styles src/twee",
 		"tweego-watch": "tweego --watch --output=dist/index.html --head=src/head.html --module=src/modules src/__compiled src/styles src/twee",
 		"serve": "live-server dist",
-		"clean": "rimraf src/__compiled"
+		"flush": "rimraf src/__compiled",
+		"postinstall": "node .scripts/postinstall.js"
 	},
 	"author": "cyrusfirheir",
 	"devDependencies": {
