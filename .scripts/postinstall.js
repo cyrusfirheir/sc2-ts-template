@@ -11,12 +11,12 @@ const dirs = [
 (async () => {
 
 	for (const dir of dirs) {
-		const p = join(__dirname, dir);
+		const p = join(process.cwd(), dir);
 		try {
 			await access(p);
 		} catch (ex) {
+			console.log(`Creating "${p}"...`);
 			await mkdir(p);
-			console.log(`"${p}" created...`);
 		}
 	}
 
