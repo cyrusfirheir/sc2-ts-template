@@ -3,19 +3,19 @@
  */
 declare module "twine-sugarcube" {
 	export interface SugarCubeSetupObject {
-		[key: string]: unknown;
+		[key: string]: any;
 	}
 
 	export interface SugarCubeStoryVariables {
-		[key: string]: unknown;
+		[key: string]: any;
 	}
 
 	export interface SugarCubeTemporaryVariables {
-		[key: string]: unknown;
+		[key: string]: any;
 	}
 	
 	export interface SugarCubeSettingVariables {
-		[key: string]: unknown;
+		[key: string]: any;
 	}
 }
 
