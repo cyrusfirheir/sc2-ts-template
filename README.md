@@ -29,7 +29,7 @@ Uses [Tweego](https://www.motoslave.net/tweego/) to compile the Twee project (an
 	- `src/head.html`: (From the Tweego documentation)
 		> Name of the file whose contents will be appended as-is to the `<head>` element of the compiled HTML.
 
-	- `src/__compiled/`: Compiled TypeScript ends up in here. Left upto webpack to manage. DO NOT put extra files in here, as this directory is cleaned out each time build commands are run.
+	- `src/__compiled/`: Compiled TypeScript ends up in here. Left upto webpack to manage. DO NOT put extra files in here, as this directory is cleaned out each time `npm run build` is run.
 
 	- `src/styles/`: All stylesheets go in here.
 
