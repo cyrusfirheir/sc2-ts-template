@@ -1,13 +1,13 @@
 :: StoryData
 {
-	"ifid": "66B3B37F-7596-4BCB-BA81-88248C8D71D3",
+	"ifid": "069D0152-8294-43AB-90E5-785CB3EA8F83",
 	"format": "SugarCube",
 	"format-version": "2.35.0"
 }
 
 :: StoryTitle
-SugarCube TypeScript template
+SC2 TS VueJS template
 
 :: Start
 
-<<= setup.greeting>>
+Hello world!
