@@ -1,6 +1,6 @@
 {
 	"name": "sc2-ts-template",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"description": "A SugarCube-2 project template for working with TypeScript.",
 	"scripts": {
 		"build": "npm run flush && webpack --env production && npm run tweego-build",
@@ -13,13 +13,13 @@
 	},
 	"author": "cyrusfirheir",
 	"devDependencies": {
-		"@types/twine-sugarcube": "^2.34.1",
-		"concurrently": "^6.2.1",
-		"live-server": "^1.2.1",
+		"@compodoc/live-server": "^1.2.3",
+		"@types/twine-sugarcube": "^2.36.1",
+		"concurrently": "^7.0.0",
 		"rimraf": "^3.0.2",
-		"ts-loader": "^8.3.0",
-		"typescript": "^4.3.5",
-		"webpack": "^5.49.0",
-		"webpack-cli": "^4.7.2"
+		"ts-loader": "^9.2.6",
+		"typescript": "^4.5.5",
+		"webpack": "^5.66.0",
+		"webpack-cli": "^4.9.1"
 	}
 }
